@@ -1,0 +1,30 @@
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb-compose
+    networks:
+      - mern-network
+
+  server:
+    build: ./Server
+    container_name: server-compose
+    ports:
+      - "9000:9000"
+    depends_on:
+      - mongodb
+    networks:
+      - mern-network
+
+  client:
+    build: ./Client
+    container_name: client-compose
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+    networks:
+      - mern-network
+
+networks:
+  mern-network:
+    driver: bridge
