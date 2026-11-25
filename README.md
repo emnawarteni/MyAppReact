@@ -102,7 +102,7 @@ docker compose down
 
 Cette capture montre les containers du projet après leur lancement.
 
-![Docker Containers](screenshots/docker-containers.png)
+![Docker Containers](Capture%20d%27%C3%A9cran/docker-containers.png)
 
 **Remarque:** MongoDB container est lancé, ama backend actuel mazal ma fihch connexion effective m3a MongoDB. Donc ma najjmouch n9oulou elli l'application connectée à la base de données.
 
@@ -156,7 +156,7 @@ Les trois étapes ont été exécutées avec succès.
 
 ### Capture Console Output
 
-![Jenkins Console Output](screenshots/jenkins-console.png)
+![Jenkins Console](Capture%20d%27%C3%A9cran/jenkins-console.png)
 
 ## 6. Docker Hub
 
@@ -181,7 +181,7 @@ Les deux images ont été envoyées avec succès vers Docker Hub.
 
 ### Capture Docker Hub
 
-![Docker Hub Repositories](screenshots/dockerhub-repository.png)
+![Docker Hub](Capture%20d%27%C3%A9cran/dockerhub-server.png)
 
 **Remarque:** push lel Docker Hub 3malneh manuellement avec PowerShell. Pipeline Jenkins actuel ya3mel checkout w build, ama mazal ma fihch étape automatique lel push.
 
@@ -226,7 +226,7 @@ nothing to commit, working tree clean
 
 ### Capture du repository GitHub
 
-![GitHub Repository](screenshots/github.png)
+![GitHub Repository](Capture%20d%27%C3%A9cran/github.png)
 
 ## 8. Les problèmes rencontrés et leurs solutions
 
